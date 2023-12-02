@@ -696,6 +696,7 @@ body {
     margin: 0 auto;
     padding: 0 var(--section);
   }
+  
 }
 @media (max-width: 1000px) {
   .conteiner {
@@ -703,11 +704,103 @@ body {
     margin: 0 auto;
     padding: 0 var(--section);
   }
+.main{
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+.control{
+  padding-top: 50px;
+}
+.market{
+  padding-top: 70px;
+}
+.qualiti{
+  padding-top: 70px;
+}
+.developer{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.localize{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.cards{
+  gap: 40px;
+  padding-bottom: 40px;
+  justify-content: center;
+}
+.cards_product{
+  padding-top: 70px;
+  padding-bottom: 80px;
+}
+.cards_p{
+  justify-content: center;
+  gap: 5px;
+}
+.revolut{
+  padding-top: 50px;
+  gap: 40px;
+}
+.img_r{
+  padding-bottom: 80px;
+  
+}
+.bird{
+  padding-top: 20px;
+  .h1_compani{
+    padding-top: 50px;
+  }
+  .btn_b{
+    padding-bottom: 90px;
+  }
+}
+.loc{
+  gap: 19px;
+  .h1_compani{
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  .p_b{
+    padding-bottom: 20px;
+  }
+  .b{
+    padding-bottom: 80px;
+    .btn_br{
+      margin-top: 34px;
+    }
+  }
+}
+.case{
+  padding-top: 50px;
+  .card_cs{
+    gap: 60px;
+    flex-wrap: wrap;
+  .items_h2{
+    padding-bottom: 20px;
+  }
+}
+}
+
+
 }
 @media (max-width: 680px) {
   .conteiner {
     max-width: calc(350px + var(--section) * 2);
     margin: 0 auto;
     padding: 0 var(--section);
+
+  }
+  .case{
+    padding-top: 50px;
+    .card_cs{
+      gap: 30px;
+      flex-wrap: wrap;
+      padding-bottom: 10px;
+    .items_h2{
+      padding-bottom: 13px;
+    }
+  }
   }
 }
+
